@@ -1,0 +1,41 @@
+:root {
+	--c1: #374151;
+	--c2: #1F2937;
+	--c3: #111827;
+	--c4: #6B7280;
+	--c5: #EC4899;
+	--c6: #8B5CF6;
+	--c7: #EEE;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 1;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	background-color: var(--c2);
+	flex-direction: column;
+
+}
+
+header {
+	padding: 2rem 1rem;
+	max-width: 800px;
+	width: 100%;
+	margin: auto;
+}
+
+header h1{ 
+	font-size: 2em;
+	font-weight: 300;
+	color: var(--c4);
+	margin: 2rem;
+}
+
+#new-task-form {
+	display: flex;;
+}
